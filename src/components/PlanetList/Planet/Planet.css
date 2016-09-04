@@ -1,0 +1,41 @@
+@keyframes planet-animation {
+	from {
+		transform: scale(1);
+	}
+
+	to {
+		opacity: 1;
+		transform: scale(1.05);
+	}
+}  
+
+@keyframes planet-back-animation {
+	from {
+	}
+
+	to {
+		opacity: 0.7;
+		transform: scale(1);
+	}
+}
+
+.planet {
+	flex-basis: 100%;
+	padding: 15px 20px;
+	background-color: rgb(239, 239, 133);
+	border-top: #eaeaea 1px solid;
+	opacity: 0.7;
+	margin-top: 5px;
+	transition: all 200ms linear;
+}
+
+.planet:hover {
+
+	opacity: 1;
+	transform: scale(1.05);
+}
+
+.planet:nth-child(1) {
+	border-top: none;
+	margin-top: 0px;
+}

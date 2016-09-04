@@ -1,0 +1,17 @@
+.header-element {
+	padding: 10px 20px;
+	font-weight: bold;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.header-element:hover {
+	background-color: #2E7D32;
+}
+
+.header-element,
+.header-element a {
+	color: white;
+	text-decoration: none;
+}
